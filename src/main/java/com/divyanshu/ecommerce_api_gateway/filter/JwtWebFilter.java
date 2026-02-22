@@ -46,10 +46,10 @@ public class JwtWebFilter implements WebFilter {
         int userId = jwtUtil.getUserIdFromToken(token);
 
 
-        System.out.println("[JWT Filter] Token: " + token);
-        System.out.println("[JWT Filter] Email: " + email);
-        System.out.println("[JWT Filter] Role: " + role);
-        System.out.println("[JWT Filter] UserId: " + userId);
+        System.out.println(" Token: " + token);
+        System.out.println(" Email: " + email);
+        System.out.println(" Role: " + role);
+        System.out.println(" UserId: " + userId);
 
 
         SimpleGrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + role);

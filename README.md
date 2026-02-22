@@ -7,7 +7,7 @@ It acts as a **single entry point** for all client requests and handles **JWT au
 
 ## Overview
 
-- Central entry point for all client requests
+- Central entry point for all client requests   
 - Routes requests to:
     - `auth-service`
     - `product-service`
@@ -27,6 +27,6 @@ It acts as a **single entry point** for all client requests and handles **JWT au
 - Spring Security + JWT
 - Eureka Discovery Client
 
----
+
 
 

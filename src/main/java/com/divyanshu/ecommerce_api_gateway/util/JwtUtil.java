@@ -12,7 +12,7 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    private final String secret = "MySuperSecretKeyForJWT1234567890MySuperSecretKey!"; // >=32 chars
+    private final String secret = "MySuperSecretKeyForJWT1234567890MySuperSecretKey!";
     private final Key key;
 
     public JwtUtil() {
